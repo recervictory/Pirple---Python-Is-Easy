@@ -29,6 +29,13 @@ def if_statements(a,b,c):
   else:
     return False
 
+
+def if_statements(a,b,c):
+  if int(a) == int(b) or int(b) == int(c) or int(c) == int(a):
+    return True
+  else:
+    return False
+
 #Test 1
 if if_statements(4,1,"4"):
   print("True")
