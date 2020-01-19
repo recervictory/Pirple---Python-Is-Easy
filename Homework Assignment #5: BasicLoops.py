@@ -22,7 +22,6 @@ Equals zero. Because after dividing 6 by 3, there is zero leftover. Whereas:
 6 % 4
 
 Equals 2. Because after dividing 6 by 4, there are 2 left over from the six.
-
 If that was confusing, don't worry. It will make more sense as you use it. The point is: the modulo operator is useful for finding out if X is a multiple of Y. If it is, then X % Y will yield zero. Knowing this should help you complete this assignment without any issue.
 
 
