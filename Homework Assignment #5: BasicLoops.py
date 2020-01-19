@@ -45,16 +45,16 @@ def fizzBuzz():
   print("__________")
   for i in range(1,101):
     if i > 2 and is_prime(i):
-      print('prime',i)
+      print('Prime ',i)
       continue
     if i % 3 == 0 and i % 5 == 0:
-      print("FizzBuzz",i)
+      print("FizzBuzz ",i)
       continue
     if i % 3 == 0:
-      print("Fizz",i)
+      print("Fizz ",i)
       continue
     if i % 5 == 0:
-      print("Buzz",i)
+      print("Buzz ",i)
       continue
     else:
       print(i)
